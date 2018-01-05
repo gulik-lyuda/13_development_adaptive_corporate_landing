@@ -1,0 +1,52 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: $normal_text_color;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	color: $heading1_color;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: $heading1_color;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: $heading2_color;
+}
+
+// .primary{
+//     color: #e74c3c;
+// }
+
+// .primary-bg{
+//     background-color: #e74c3c;
+// }
+
+// .secondary-dark-blue
+// {
+//     color: #34495e;
+// }
+
+.secondary-dark-blue-bg
+{
+    background-color: $dark_grey_bg_color;
+}
+
+// .secondary-sky-blue
+// {
+//     color: #2d82d8;
+// }
+
+// .secondary-sky-blue-bg
+// {
+//     background-color: #2d82d8;
+// }

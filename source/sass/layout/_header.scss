@@ -1,0 +1,32 @@
+header {
+	padding: 36px 0;
+
+	.logo {
+
+	}
+
+	.menu {
+		padding-top: 11px;
+		float: right;
+
+		font-weight: 700;
+
+		.menu__item {
+			display: inline-block;
+			padding-left: 30px;
+
+			a {
+				text-transform: capitalize;
+				color: $white_color;
+
+				transition: all 0.3s ease-in;
+
+				&:hover,
+				&:focus {
+					color: $red_font_color;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

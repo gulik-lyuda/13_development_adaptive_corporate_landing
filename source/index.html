@@ -2,22 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adaptive Corporate Landing</title>
 
+    <!-- Connect all needed fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/vendors/font-awesome.min.css"/>
+    <!-- Connect bootstrap styles -->
+    <link rel="stylesheet" type="text/css" href="css/vendors/bootstrap.min.css"/>
 
-    <!-- Connect our stylesheets -->
+    <!-- Connect reset of all browsers' settings -->
     <link rel="stylesheet" href="css/reset.css">
+    <!-- Connect our main stylesheet -->
     <link rel="stylesheet" href="css/base.css">
     <!-- Add favicon -->
     <link rel="icon" href="images/icons/wizard.ico" type="image/x-icon"/>
+
+    <!-- Additional library for using media queries for IE 8.0 and less -->
+    <script type="text/javascript" src="js/vendors/respond.min.js"></script>
 </head>
 <body>
     <div class="page-wrapper">
-        <header>
-
-            <nav>
-
-            </nav>
+        <header class="secondary-dark-blue-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="#" class="logo"><img src="images/icons/logo.png" alt="Logo Image"></a>
+                    </div>
+                    <div class="col-lg-9">
+                        <nav>
+                            <ul class="menu">
+                                <li class="menu__item"><a href="#">home</a></li>
+                                <li class="menu__item"><a href="#">services</a></li>
+                                <li class="menu__item"><a href="#">our works</a></li>
+                                <li class="menu__item"><a href="#">team</a></li>
+                                <li class="menu__item"><a href="#">testimonials</a></li>
+                                <li class="menu__item"><a href="#">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>                
+            </div> <!-- end of .container -->            
         </header>
 
         <main class="wrapper">
@@ -29,8 +54,12 @@
         </footer>
     </div>
 
-    <!-- Add all our scripts -->
+<!-- Add all our scripts -->
+    <!-- Add Bootstrap JavaScript library and additional using libraries-->
+    <script language="JavaScript" type="text/javascript" src="js/vendors/jquery.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/vendors/jquery.shorten.1.0.js"></script>
+    <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>
+    <!-- Add our main JavaScript file -->
     <script src="js/main.js"></script>
-
 </body>
 </html>

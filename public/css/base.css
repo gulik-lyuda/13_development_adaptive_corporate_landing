@@ -5798,3 +5798,45 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777; }
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #555; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #555; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333; }
+
+.secondary-dark-blue-bg {
+  background-color: #34495e; }
+
+header {
+  padding: 36px 0; }
+  header .menu {
+    padding-top: 11px;
+    float: right;
+    font-weight: 700; }
+    header .menu .menu__item {
+      display: inline-block;
+      padding-left: 30px; }
+      header .menu .menu__item a {
+        text-transform: capitalize;
+        color: #fff;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in; }
+        header .menu .menu__item a:hover, header .menu .menu__item a:focus {
+          color: #e74c3c;
+          text-decoration: none; }
