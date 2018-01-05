@@ -1,5 +1,9 @@
-@import "general";
 @import "header";
-@import "menu";
-@import "content"; //or some imports of files for separate blocks if we use BEM metodology
+@import "slider"; // slider below the header
+@import "services"; // Our Services section
+@import "portfolio"; // Our Works section
+@import "team"; // Our Team section
+@import "testimonials"; // Client Testimonials section
+@import "blog"; // Recent Posts from Blog section
+@import "contact"; // Contact Us section
 @import "footer";
