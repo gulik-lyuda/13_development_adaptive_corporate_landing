@@ -5821,6 +5821,12 @@ h3 {
   font-weight: 700;
   color: #333; }
 
+.info_section {
+  padding: 65px 0;
+  text-align: center; }
+  .info_section h1 {
+    text-transform: capitalize; }
+
 .primary {
   color: #e74c3c; }
 
@@ -5915,3 +5921,19 @@ header {
       color: grey; }
     .slider .slider_pager li.selected a {
       color: #e74c3c; }
+
+.services .row {
+  margin-bottom: 55px; }
+
+.services .services__header {
+  margin-bottom: 50px; }
+  .services .services__header h1 {
+    margin-bottom: 20px; }
+
+.services .services__content i {
+  font-size: 32px;
+  color: #555; }
+
+.services .services__content h3 {
+  margin-bottom: 10px;
+  text-transform: capitalize; }

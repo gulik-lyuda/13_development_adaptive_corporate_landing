@@ -24,6 +24,16 @@ h3 {
 	color: $heading2_color;
 }
 
+.info_section {
+	padding: 65px 0;
+
+	text-align: center;
+
+	h1 {
+		text-transform: capitalize;
+	}
+}
+
 .primary{
     color: #e74c3c;
 }
