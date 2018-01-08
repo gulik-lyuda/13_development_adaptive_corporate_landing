@@ -18,12 +18,15 @@
     <!-- Add favicon -->
     <link rel="icon" href="images/icons/wizard.ico" type="image/x-icon"/>
 
+    <!-- Add library for a carousel component in Slider section -->
+    <script language="JavaScript" type="text/javascript" src="js/vendors/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery.caroufredsel.js"></script>
     <!-- Additional library for using media queries for IE 8.0 and less -->
     <script type="text/javascript" src="js/vendors/respond.min.js"></script>
 </head>
 <body>
     <div class="page-wrapper">
-        <header class="secondary-dark-blue-bg">
+        <header>
             <div class="container clearfix">
                 <div class="row">
                     <div class="col-lg-3">
@@ -47,7 +50,34 @@
 
         <main class="wrapper">
             <section class="slider">
-                
+                <ul class="slider-carousel" id="slider-carousel">
+                    <li class="image_1">
+                        <h1>Welcome to <span class="primary">Corporate</span></h1>
+                        <p>It is a long established fact that a reader will be distracted 
+                        by the readable content of a page </br> when looking at its layout</p>
+                        <a href="#" class="get_started_btn">get started</a>
+                        <a href="#" class="contact_us_btn">contact us</a>
+                    </li>
+                    <li class="image_2">
+                        <h1>Welcome to <span class="primary">Corporate</span></h1>
+                        <p>It is a long established fact that a reader will be distracted 
+                        by the readable content of a page </br> when looking at its layout</p>
+                        <a href="#" class="get_started_btn">get started</a>
+                        <a href="#" class="contact_us_btn">contact us</a>
+                    </li>
+                    <li class="image_3">
+                        <h1>Welcome to <span class="primary">Corporate</span></h1>
+                        <p>It is a long established fact that a reader will be distracted 
+                        by the readable content of a page </br> when looking at its layout</p>
+                        <a href="#" class="get_started_btn">get started</a>
+                        <a href="#" class="secondary_sky_blue_bg contact_us_btn">contact us</a>
+                    </li>
+                </ul>
+                <ul class="slider_pager">
+                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                </ul>
             </section> <!-- end of .slider -->
 
             <section class="services">
@@ -82,9 +112,9 @@
 
 <!-- Add all our scripts -->
     <!-- Add Bootstrap JavaScript library and additional using libraries-->
-    <script language="JavaScript" type="text/javascript" src="js/vendors/jquery.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/vendors/jquery.shorten.1.0.js"></script>
     <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>
+    
     <!-- Add our main JavaScript file -->
     <script src="js/main.js"></script>
 </body>

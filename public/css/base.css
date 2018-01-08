@@ -5800,6 +5800,7 @@ button.close {
     display: none !important; } }
 
 body {
+  height: 2000px;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -5820,11 +5821,23 @@ h3 {
   font-weight: 700;
   color: #333; }
 
+.primary {
+  color: #e74c3c; }
+
+.primary_bg {
+  background-color: #e74c3c; }
+
 .secondary-dark-blue-bg {
   background-color: #34495e; }
 
+.secondary_sky_blue_bg {
+  background-color: #2d82d8; }
+
 header {
-  padding: 36px 0; }
+  width: 100%;
+  padding: 36px 0;
+  position: fixed;
+  z-index: 100; }
   header .menu {
     padding-top: 11px;
     float: right;
@@ -5840,3 +5853,65 @@ header {
         header .menu .menu__item a:hover, header .menu .menu__item a:focus {
           color: #e74c3c;
           text-decoration: none; }
+
+.slider .slider-carousel li {
+  height: 600px;
+  width: 100%;
+  padding: 200px 0;
+  text-align: center; }
+  .slider .slider-carousel li a {
+    padding: 10px 50px;
+    margin-right: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+    .slider .slider-carousel li a:last-child {
+      margin-right: 0; }
+    .slider .slider-carousel li a:hover, .slider .slider-carousel li a:focus {
+      text-decoration: none; }
+
+.slider h1 {
+  margin-bottom: 45px;
+  color: #fff; }
+
+.slider p {
+  margin-bottom: 65px;
+  color: #fff; }
+
+.slider .image_1 {
+  background: url("../images/backgrounds/header_bg.png");
+  background-size: 100% 100%; }
+
+.slider .image_2 {
+  background: url("../images/backgrounds/header_bg.png"); }
+
+.slider .image_3 {
+  background: url("../images/backgrounds/header_bg.png"); }
+
+.slider .get_started_btn {
+  background-color: #e74c3c; }
+  .slider .get_started_btn:hover {
+    background-color: #fa7365;
+    border-radius: 5px; }
+
+.slider .contact_us_btn {
+  background-color: #2d82d8; }
+  .slider .contact_us_btn:hover {
+    background-color: #58a9fb;
+    border-radius: 5px; }
+
+.slider .slider_pager {
+  width: 100%;
+  text-align: center; }
+  .slider .slider_pager li {
+    display: inline-block;
+    padding: 0 3px;
+    height: 28px;
+    line-height: 28px; }
+    .slider .slider_pager li a {
+      color: grey; }
+    .slider .slider_pager li.selected a {
+      color: #e74c3c; }
